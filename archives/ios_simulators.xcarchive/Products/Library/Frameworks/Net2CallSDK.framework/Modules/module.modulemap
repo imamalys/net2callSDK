@@ -1,0 +1,4 @@
+framework module Net2CallSDK {
+  header "Net2CallSDK-Swift.h"
+  requires objc
+}
