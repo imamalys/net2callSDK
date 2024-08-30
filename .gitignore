@@ -1,0 +1,7 @@
+Podfile.lock
+Pods/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+/archives
+*.xcworkspace
