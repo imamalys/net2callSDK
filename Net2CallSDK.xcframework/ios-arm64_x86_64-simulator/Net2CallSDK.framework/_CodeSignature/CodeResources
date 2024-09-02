@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		arEN2CRfXj5YyuM8fQ8HrT5YoFw=
+		kpqqvc4rJa51GgyG8BKHbH+QtVg=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nIt2qvqUNHhEAUqL3xKtqfi3QmY=
+		tcOgXvAxlYYUVQEuZEHf2nuo9x0=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		arEN2CRfXj5YyuM8fQ8HrT5YoFw=
+		kpqqvc4rJa51GgyG8BKHbH+QtVg=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		reWcU9foa4Hz+x+lgOUkcqogSHk=
+		64XXPPN+lpHCzlkvNRdKyTVi2rc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K29tUTLZAgvka9A5P6BqfxgOHpUOsFy3a94mU6xuryI=
+			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PeHeKGVYGELWTnuTBAkugBCMj0/0XCKuN+ML88Eyf2k=
+			CrAnldwO9TOmrJK1NjUxLCrHstWdfqDh82UpwoQqAuM=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K29tUTLZAgvka9A5P6BqfxgOHpUOsFy3a94mU6xuryI=
+			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MBfxahM35/KVWUYKkA1C4x3JQZU6zk9oR89VOAo0BeA=
+			XU8MhUXYZv5+pXR34TOnS4Arfz9HMPtbZjHFgeXMtP4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/Pods_Net2CallSDK.framework/Pods_Net2CallSDK</key>
 		<data>
-		vOKaMLbWpmgWOFzympS5LjBQPMc=
+		++WYmjvNE/mGSCZAX0iWAnLPlpI=
 		</data>
 		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		arEN2CRfXj5YyuM8fQ8HrT5YoFw=
+		kpqqvc4rJa51GgyG8BKHbH+QtVg=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Qmms0gbXGIwDVpj1yfAMULAI7SU=
+		ijJYgQ3877mlHTmUdbHGqSj1LUU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K2LwYUUZK/3mQs9ihDmMw/8h5w213PzulyJWieo1Hts=
+			RduyxAp6XNms6mw1Xg7kRUpytEyftk2OdCLdwhdV1jY=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K29tUTLZAgvka9A5P6BqfxgOHpUOsFy3a94mU6xuryI=
+			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4l7yC7DMWS/pXGAeBxTmqYHqNpsokhzh2j+ZboZ6wXc=
+			FC0r7qvK0ulJsog9MaMknI2h4W8quIgLPuNXrxH5yX8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

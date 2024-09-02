@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F05D9512C85CD910034FE6A /* Pods_Net2CallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; };
+		8F05D9522C85CD910034FE6A /* Pods_Net2CallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8F05D9662C85D01E0034FE6A /* mscodec2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */; };
+		8F05D9682C85D01F0034FE6A /* belr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9552C85D01E0034FE6A /* belr.xcframework */; };
+		8F05D96A2C85D01F0034FE6A /* limetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9562C85D01E0034FE6A /* limetester.xcframework */; };
+		8F05D96C2C85D01F0034FE6A /* linphone.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9572C85D01E0034FE6A /* linphone.xcframework */; };
+		8F05D96E2C85D01F0034FE6A /* ortp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9582C85D01E0034FE6A /* ortp.xcframework */; };
+		8F05D9702C85D01F0034FE6A /* msopenh264.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9592C85D01E0034FE6A /* msopenh264.xcframework */; };
+		8F05D9722C85D01F0034FE6A /* linphonetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95A2C85D01E0034FE6A /* linphonetester.xcframework */; };
+		8F05D9742C85D01F0034FE6A /* belle-sip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95B2C85D01E0034FE6A /* belle-sip.xcframework */; };
+		8F05D9762C85D01F0034FE6A /* belcard.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95C2C85D01E0034FE6A /* belcard.xcframework */; };
+		8F05D9782C85D01F0034FE6A /* bctoolbox-tester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95D2C85D01E0034FE6A /* bctoolbox-tester.xcframework */; };
+		8F05D97A2C85D01F0034FE6A /* mswebrtc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95E2C85D01E0034FE6A /* mswebrtc.xcframework */; };
+		8F05D97C2C85D01F0034FE6A /* lime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D95F2C85D01E0034FE6A /* lime.xcframework */; };
+		8F05D97E2C85D01F0034FE6A /* mssilk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9602C85D01E0034FE6A /* mssilk.xcframework */; };
+		8F05D9802C85D01F0034FE6A /* bctoolbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9612C85D01E0034FE6A /* bctoolbox.xcframework */; };
+		8F05D9822C85D01F0034FE6A /* msamr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9622C85D01E0034FE6A /* msamr.xcframework */; };
+		8F05D9842C85D01F0034FE6A /* bctoolbox-ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9632C85D01E0034FE6A /* bctoolbox-ios.xcframework */; };
+		8F05D9862C85D01F0034FE6A /* mediastreamer2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9642C85D01E0034FE6A /* mediastreamer2.xcframework */; };
+		8F05D9882C85D01F0034FE6A /* ZXing.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9652C85D01E0034FE6A /* ZXing.xcframework */; };
+		8F05D98C2C85D1100034FE6A /* Net2CallWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05D98B2C85D1100034FE6A /* Net2CallWrapper.swift */; };
 		8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CBF2C80782900A1DEF5 /* UIView.swift */; };
 		8F2D8CD42C80782A00A1DEF5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC02C80782900A1DEF5 /* UIColor.swift */; };
 		8F2D8CD52C80782A00A1DEF5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC12C80782900A1DEF5 /* UIDevice.swift */; };
@@ -23,18 +44,16 @@
 		8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */; };
 		8F2D8CE12C80782A00A1DEF5 /* CallTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */; };
 		8F2D8CE22C80782A00A1DEF5 /* StyledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */; };
-		8F6164402C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; };
-		8F6164412C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8F6164422C7DCFA80099F577 /* Embed Frameworks */ = {
+		8F05D9532C85CD910034FE6A /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8F6164412C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Embed Frameworks */,
+				8F05D9522C85CD910034FE6A /* Pods_Net2CallSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,6 +62,25 @@
 
 /* Begin PBXFileReference section */
 		6B0FF899CE9341B03606F468 /* Pods-Net2CallSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.release.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.release.xcconfig"; sourceTree = "<group>"; };
+		8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mscodec2.xcframework; path = Core/XCFrameworks/mscodec2.xcframework; sourceTree = "<group>"; };
+		8F05D9552C85D01E0034FE6A /* belr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = belr.xcframework; path = Core/XCFrameworks/belr.xcframework; sourceTree = "<group>"; };
+		8F05D9562C85D01E0034FE6A /* limetester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = limetester.xcframework; path = Core/XCFrameworks/limetester.xcframework; sourceTree = "<group>"; };
+		8F05D9572C85D01E0034FE6A /* linphone.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = linphone.xcframework; path = Core/XCFrameworks/linphone.xcframework; sourceTree = "<group>"; };
+		8F05D9582C85D01E0034FE6A /* ortp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ortp.xcframework; path = Core/XCFrameworks/ortp.xcframework; sourceTree = "<group>"; };
+		8F05D9592C85D01E0034FE6A /* msopenh264.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = msopenh264.xcframework; path = Core/XCFrameworks/msopenh264.xcframework; sourceTree = "<group>"; };
+		8F05D95A2C85D01E0034FE6A /* linphonetester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = linphonetester.xcframework; path = Core/XCFrameworks/linphonetester.xcframework; sourceTree = "<group>"; };
+		8F05D95B2C85D01E0034FE6A /* belle-sip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "belle-sip.xcframework"; path = "Core/XCFrameworks/belle-sip.xcframework"; sourceTree = "<group>"; };
+		8F05D95C2C85D01E0034FE6A /* belcard.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = belcard.xcframework; path = Core/XCFrameworks/belcard.xcframework; sourceTree = "<group>"; };
+		8F05D95D2C85D01E0034FE6A /* bctoolbox-tester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "bctoolbox-tester.xcframework"; path = "Core/XCFrameworks/bctoolbox-tester.xcframework"; sourceTree = "<group>"; };
+		8F05D95E2C85D01E0034FE6A /* mswebrtc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mswebrtc.xcframework; path = Core/XCFrameworks/mswebrtc.xcframework; sourceTree = "<group>"; };
+		8F05D95F2C85D01E0034FE6A /* lime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = lime.xcframework; path = Core/XCFrameworks/lime.xcframework; sourceTree = "<group>"; };
+		8F05D9602C85D01E0034FE6A /* mssilk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mssilk.xcframework; path = Core/XCFrameworks/mssilk.xcframework; sourceTree = "<group>"; };
+		8F05D9612C85D01E0034FE6A /* bctoolbox.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = bctoolbox.xcframework; path = Core/XCFrameworks/bctoolbox.xcframework; sourceTree = "<group>"; };
+		8F05D9622C85D01E0034FE6A /* msamr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = msamr.xcframework; path = Core/XCFrameworks/msamr.xcframework; sourceTree = "<group>"; };
+		8F05D9632C85D01E0034FE6A /* bctoolbox-ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "bctoolbox-ios.xcframework"; path = "Core/XCFrameworks/bctoolbox-ios.xcframework"; sourceTree = "<group>"; };
+		8F05D9642C85D01E0034FE6A /* mediastreamer2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mediastreamer2.xcframework; path = Core/XCFrameworks/mediastreamer2.xcframework; sourceTree = "<group>"; };
+		8F05D9652C85D01E0034FE6A /* ZXing.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZXing.xcframework; path = Core/XCFrameworks/ZXing.xcframework; sourceTree = "<group>"; };
+		8F05D98B2C85D1100034FE6A /* Net2CallWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Net2CallWrapper.swift; path = Core/Net2CallWrapper.swift; sourceTree = SOURCE_ROOT; };
 		8F2D8CBF2C80782900A1DEF5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		8F2D8CC02C80782900A1DEF5 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		8F2D8CC12C80782900A1DEF5 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
@@ -69,16 +107,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6164402C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Frameworks */,
+				8F05D9702C85D01F0034FE6A /* msopenh264.xcframework in Frameworks */,
+				8F05D9882C85D01F0034FE6A /* ZXing.xcframework in Frameworks */,
+				8F05D96E2C85D01F0034FE6A /* ortp.xcframework in Frameworks */,
+				8F05D9512C85CD910034FE6A /* Pods_Net2CallSDK.framework in Frameworks */,
+				8F05D96C2C85D01F0034FE6A /* linphone.xcframework in Frameworks */,
+				8F05D97E2C85D01F0034FE6A /* mssilk.xcframework in Frameworks */,
+				8F05D9682C85D01F0034FE6A /* belr.xcframework in Frameworks */,
+				8F05D9742C85D01F0034FE6A /* belle-sip.xcframework in Frameworks */,
+				8F05D9802C85D01F0034FE6A /* bctoolbox.xcframework in Frameworks */,
+				8F05D9822C85D01F0034FE6A /* msamr.xcframework in Frameworks */,
+				8F05D97A2C85D01F0034FE6A /* mswebrtc.xcframework in Frameworks */,
+				8F05D97C2C85D01F0034FE6A /* lime.xcframework in Frameworks */,
+				8F05D9722C85D01F0034FE6A /* linphonetester.xcframework in Frameworks */,
+				8F05D9662C85D01E0034FE6A /* mscodec2.xcframework in Frameworks */,
+				8F05D9782C85D01F0034FE6A /* bctoolbox-tester.xcframework in Frameworks */,
+				8F05D96A2C85D01F0034FE6A /* limetester.xcframework in Frameworks */,
+				8F05D9762C85D01F0034FE6A /* belcard.xcframework in Frameworks */,
+				8F05D9862C85D01F0034FE6A /* mediastreamer2.xcframework in Frameworks */,
+				8F05D9842C85D01F0034FE6A /* bctoolbox-ios.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F05D98A2C85D0BB0034FE6A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8F05D98B2C85D1100034FE6A /* Net2CallWrapper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		8F2D8CBC2C80782900A1DEF5 /* Net2CallSDK */ = {
 			isa = PBXGroup;
 			children = (
+				8F05D98A2C85D0BB0034FE6A /* Core */,
 				8F2D8CBD2C80782900A1DEF5 /* Extension */,
 				8F2D8CC32C80782900A1DEF5 /* Util */,
 				8F2D8CC62C80782900A1DEF5 /* SingleHolder.swift */,
@@ -177,6 +242,24 @@
 		EACF2902E6E984FF664CD0C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8F05D9632C85D01E0034FE6A /* bctoolbox-ios.xcframework */,
+				8F05D95D2C85D01E0034FE6A /* bctoolbox-tester.xcframework */,
+				8F05D9612C85D01E0034FE6A /* bctoolbox.xcframework */,
+				8F05D95C2C85D01E0034FE6A /* belcard.xcframework */,
+				8F05D95B2C85D01E0034FE6A /* belle-sip.xcframework */,
+				8F05D9552C85D01E0034FE6A /* belr.xcframework */,
+				8F05D95F2C85D01E0034FE6A /* lime.xcframework */,
+				8F05D9562C85D01E0034FE6A /* limetester.xcframework */,
+				8F05D9572C85D01E0034FE6A /* linphone.xcframework */,
+				8F05D95A2C85D01E0034FE6A /* linphonetester.xcframework */,
+				8F05D9642C85D01E0034FE6A /* mediastreamer2.xcframework */,
+				8F05D9622C85D01E0034FE6A /* msamr.xcframework */,
+				8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */,
+				8F05D9592C85D01E0034FE6A /* msopenh264.xcframework */,
+				8F05D9602C85D01E0034FE6A /* mssilk.xcframework */,
+				8F05D95E2C85D01E0034FE6A /* mswebrtc.xcframework */,
+				8F05D9582C85D01E0034FE6A /* ortp.xcframework */,
+				8F05D9652C85D01E0034FE6A /* ZXing.xcframework */,
 				EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */,
 			);
 			name = Frameworks;
@@ -204,7 +287,7 @@
 				8F60CC2F2C4C073600FC1855 /* Sources */,
 				8F60CC302C4C073600FC1855 /* Frameworks */,
 				8F60CC312C4C073600FC1855 /* Resources */,
-				8F6164422C7DCFA80099F577 /* Embed Frameworks */,
+				8F05D9532C85CD910034FE6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +375,7 @@
 				8F2D8CDA2C80782A00A1DEF5 /* LightDarkColor.swift in Sources */,
 				8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */,
 				8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */,
+				8F05D98C2C85D1100034FE6A /* Net2CallWrapper.swift in Sources */,
 				8F2D8CD82C80782A00A1DEF5 /* AudioRouteUtils.swift in Sources */,
 				8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */,
 				8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */,

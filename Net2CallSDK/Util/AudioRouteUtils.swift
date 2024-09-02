@@ -7,7 +7,6 @@
 
 import Foundation
 import AVFoundation
-import linphonesw
 
 @objc class AudioRouteUtils : NSObject {
     

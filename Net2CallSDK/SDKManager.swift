@@ -7,7 +7,6 @@
 
 import Foundation
 import UIKit
-import linphonesw
 
 public protocol SDKDelegate {
     func onCallStateChanged(state: CallState)

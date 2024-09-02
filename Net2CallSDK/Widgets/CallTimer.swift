@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import linphonesw
 
 
 class CallTimer : StyledLabel  {
