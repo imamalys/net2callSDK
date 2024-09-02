@@ -15,5 +15,4 @@ s.homepage         = 'https://github.com/imamalys/net2callSDK'
   s.swift_version = '5.0'
  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.dependency 'SnapKit', '~> 5.6.0'
 end
