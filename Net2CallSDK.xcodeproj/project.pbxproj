@@ -23,25 +23,6 @@
 		8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */; };
 		8F2D8CE12C80782A00A1DEF5 /* CallTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */; };
 		8F2D8CE22C80782A00A1DEF5 /* StyledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */; };
-		8F2D8CF52C80789200A1DEF5 /* mswebrtc.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE32C80789100A1DEF5 /* mswebrtc.xcframework */; };
-		8F2D8CF72C80789200A1DEF5 /* belr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE42C80789100A1DEF5 /* belr.xcframework */; };
-		8F2D8CF92C80789200A1DEF5 /* bctoolbox-ios.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE52C80789100A1DEF5 /* bctoolbox-ios.xcframework */; };
-		8F2D8CFB2C80789200A1DEF5 /* ortp.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE62C80789200A1DEF5 /* ortp.xcframework */; };
-		8F2D8CFD2C80789300A1DEF5 /* mscodec2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE72C80789200A1DEF5 /* mscodec2.xcframework */; };
-		8F2D8CFF2C80789300A1DEF5 /* belle-sip.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE82C80789200A1DEF5 /* belle-sip.xcframework */; };
-		8F2D8D012C80789300A1DEF5 /* limetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CE92C80789200A1DEF5 /* limetester.xcframework */; };
-		8F2D8D032C80789300A1DEF5 /* bctoolbox-tester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CEA2C80789200A1DEF5 /* bctoolbox-tester.xcframework */; };
-		8F2D8D052C80789300A1DEF5 /* msamr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CEB2C80789200A1DEF5 /* msamr.xcframework */; };
-		8F2D8D072C80789300A1DEF5 /* mediastreamer2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CEC2C80789200A1DEF5 /* mediastreamer2.xcframework */; };
-		8F2D8D092C80789300A1DEF5 /* linphone.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CED2C80789200A1DEF5 /* linphone.xcframework */; };
-		8F2D8D0B2C80789300A1DEF5 /* linphonetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CEE2C80789200A1DEF5 /* linphonetester.xcframework */; };
-		8F2D8D0D2C80789300A1DEF5 /* lime.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CEF2C80789200A1DEF5 /* lime.xcframework */; };
-		8F2D8D0F2C80789300A1DEF5 /* msopenh264.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CF02C80789200A1DEF5 /* msopenh264.xcframework */; };
-		8F2D8D112C80789300A1DEF5 /* ZXing.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CF12C80789200A1DEF5 /* ZXing.xcframework */; };
-		8F2D8D132C80789400A1DEF5 /* bctoolbox.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CF22C80789200A1DEF5 /* bctoolbox.xcframework */; };
-		8F2D8D152C80789400A1DEF5 /* belcard.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CF32C80789200A1DEF5 /* belcard.xcframework */; };
-		8F2D8D172C80789400A1DEF5 /* mssilk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2D8CF42C80789200A1DEF5 /* mssilk.xcframework */; };
-		8F2D8D1C2C8078EB00A1DEF5 /* Net2CallWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8D1B2C8078EB00A1DEF5 /* Net2CallWrapper.swift */; };
 		8F6164402C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; };
 		8F6164412C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -78,25 +59,6 @@
 		8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDeviceType.swift; sourceTree = "<group>"; };
 		8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallTimer.swift; sourceTree = "<group>"; };
 		8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabel.swift; sourceTree = "<group>"; };
-		8F2D8CE32C80789100A1DEF5 /* mswebrtc.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mswebrtc.xcframework; path = Core/XCFrameworks/mswebrtc.xcframework; sourceTree = "<group>"; };
-		8F2D8CE42C80789100A1DEF5 /* belr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = belr.xcframework; path = Core/XCFrameworks/belr.xcframework; sourceTree = "<group>"; };
-		8F2D8CE52C80789100A1DEF5 /* bctoolbox-ios.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "bctoolbox-ios.xcframework"; path = "Core/XCFrameworks/bctoolbox-ios.xcframework"; sourceTree = "<group>"; };
-		8F2D8CE62C80789200A1DEF5 /* ortp.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ortp.xcframework; path = Core/XCFrameworks/ortp.xcframework; sourceTree = "<group>"; };
-		8F2D8CE72C80789200A1DEF5 /* mscodec2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mscodec2.xcframework; path = Core/XCFrameworks/mscodec2.xcframework; sourceTree = "<group>"; };
-		8F2D8CE82C80789200A1DEF5 /* belle-sip.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "belle-sip.xcframework"; path = "Core/XCFrameworks/belle-sip.xcframework"; sourceTree = "<group>"; };
-		8F2D8CE92C80789200A1DEF5 /* limetester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = limetester.xcframework; path = Core/XCFrameworks/limetester.xcframework; sourceTree = "<group>"; };
-		8F2D8CEA2C80789200A1DEF5 /* bctoolbox-tester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "bctoolbox-tester.xcframework"; path = "Core/XCFrameworks/bctoolbox-tester.xcframework"; sourceTree = "<group>"; };
-		8F2D8CEB2C80789200A1DEF5 /* msamr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = msamr.xcframework; path = Core/XCFrameworks/msamr.xcframework; sourceTree = "<group>"; };
-		8F2D8CEC2C80789200A1DEF5 /* mediastreamer2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mediastreamer2.xcframework; path = Core/XCFrameworks/mediastreamer2.xcframework; sourceTree = "<group>"; };
-		8F2D8CED2C80789200A1DEF5 /* linphone.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = linphone.xcframework; path = Core/XCFrameworks/linphone.xcframework; sourceTree = "<group>"; };
-		8F2D8CEE2C80789200A1DEF5 /* linphonetester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = linphonetester.xcframework; path = Core/XCFrameworks/linphonetester.xcframework; sourceTree = "<group>"; };
-		8F2D8CEF2C80789200A1DEF5 /* lime.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = lime.xcframework; path = Core/XCFrameworks/lime.xcframework; sourceTree = "<group>"; };
-		8F2D8CF02C80789200A1DEF5 /* msopenh264.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = msopenh264.xcframework; path = Core/XCFrameworks/msopenh264.xcframework; sourceTree = "<group>"; };
-		8F2D8CF12C80789200A1DEF5 /* ZXing.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZXing.xcframework; path = Core/XCFrameworks/ZXing.xcframework; sourceTree = "<group>"; };
-		8F2D8CF22C80789200A1DEF5 /* bctoolbox.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = bctoolbox.xcframework; path = Core/XCFrameworks/bctoolbox.xcframework; sourceTree = "<group>"; };
-		8F2D8CF32C80789200A1DEF5 /* belcard.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = belcard.xcframework; path = Core/XCFrameworks/belcard.xcframework; sourceTree = "<group>"; };
-		8F2D8CF42C80789200A1DEF5 /* mssilk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mssilk.xcframework; path = Core/XCFrameworks/mssilk.xcframework; sourceTree = "<group>"; };
-		8F2D8D1B2C8078EB00A1DEF5 /* Net2CallWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Net2CallWrapper.swift; path = Core/Net2CallWrapper.swift; sourceTree = SOURCE_ROOT; };
 		8F60CC332C4C073600FC1855 /* Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6087DADBCFB842AF7F167E0 /* Pods-Net2CallSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.debug.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,24 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2D8D072C80789300A1DEF5 /* mediastreamer2.xcframework in Frameworks */,
-				8F2D8CFB2C80789200A1DEF5 /* ortp.xcframework in Frameworks */,
-				8F2D8D132C80789400A1DEF5 /* bctoolbox.xcframework in Frameworks */,
-				8F2D8CFD2C80789300A1DEF5 /* mscodec2.xcframework in Frameworks */,
-				8F2D8D052C80789300A1DEF5 /* msamr.xcframework in Frameworks */,
-				8F2D8D152C80789400A1DEF5 /* belcard.xcframework in Frameworks */,
-				8F2D8CF92C80789200A1DEF5 /* bctoolbox-ios.xcframework in Frameworks */,
-				8F2D8D0B2C80789300A1DEF5 /* linphonetester.xcframework in Frameworks */,
-				8F2D8D012C80789300A1DEF5 /* limetester.xcframework in Frameworks */,
-				8F2D8CFF2C80789300A1DEF5 /* belle-sip.xcframework in Frameworks */,
-				8F2D8D112C80789300A1DEF5 /* ZXing.xcframework in Frameworks */,
-				8F2D8D0D2C80789300A1DEF5 /* lime.xcframework in Frameworks */,
-				8F2D8CF52C80789200A1DEF5 /* mswebrtc.xcframework in Frameworks */,
-				8F2D8D092C80789300A1DEF5 /* linphone.xcframework in Frameworks */,
-				8F2D8D0F2C80789300A1DEF5 /* msopenh264.xcframework in Frameworks */,
-				8F2D8D172C80789400A1DEF5 /* mssilk.xcframework in Frameworks */,
-				8F2D8D032C80789300A1DEF5 /* bctoolbox-tester.xcframework in Frameworks */,
-				8F2D8CF72C80789200A1DEF5 /* belr.xcframework in Frameworks */,
 				8F6164402C7DCFA70099F577 /* Pods_Net2CallSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +79,6 @@
 		8F2D8CBC2C80782900A1DEF5 /* Net2CallSDK */ = {
 			isa = PBXGroup;
 			children = (
-				8F2D8D1B2C8078EB00A1DEF5 /* Net2CallWrapper.swift */,
 				8F2D8CBD2C80782900A1DEF5 /* Extension */,
 				8F2D8CC32C80782900A1DEF5 /* Util */,
 				8F2D8CC62C80782900A1DEF5 /* SingleHolder.swift */,
@@ -234,24 +177,6 @@
 		EACF2902E6E984FF664CD0C9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F2D8CE52C80789100A1DEF5 /* bctoolbox-ios.xcframework */,
-				8F2D8CEA2C80789200A1DEF5 /* bctoolbox-tester.xcframework */,
-				8F2D8CF22C80789200A1DEF5 /* bctoolbox.xcframework */,
-				8F2D8CF32C80789200A1DEF5 /* belcard.xcframework */,
-				8F2D8CE82C80789200A1DEF5 /* belle-sip.xcframework */,
-				8F2D8CE42C80789100A1DEF5 /* belr.xcframework */,
-				8F2D8CEF2C80789200A1DEF5 /* lime.xcframework */,
-				8F2D8CE92C80789200A1DEF5 /* limetester.xcframework */,
-				8F2D8CED2C80789200A1DEF5 /* linphone.xcframework */,
-				8F2D8CEE2C80789200A1DEF5 /* linphonetester.xcframework */,
-				8F2D8CEC2C80789200A1DEF5 /* mediastreamer2.xcframework */,
-				8F2D8CEB2C80789200A1DEF5 /* msamr.xcframework */,
-				8F2D8CE72C80789200A1DEF5 /* mscodec2.xcframework */,
-				8F2D8CF02C80789200A1DEF5 /* msopenh264.xcframework */,
-				8F2D8CF42C80789200A1DEF5 /* mssilk.xcframework */,
-				8F2D8CE32C80789100A1DEF5 /* mswebrtc.xcframework */,
-				8F2D8CE62C80789200A1DEF5 /* ortp.xcframework */,
-				8F2D8CF12C80789200A1DEF5 /* ZXing.xcframework */,
 				EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */,
 			);
 			name = Frameworks;
@@ -367,7 +292,6 @@
 				8F2D8CDA2C80782A00A1DEF5 /* LightDarkColor.swift in Sources */,
 				8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */,
 				8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */,
-				8F2D8D1C2C8078EB00A1DEF5 /* Net2CallWrapper.swift in Sources */,
 				8F2D8CD82C80782A00A1DEF5 /* AudioRouteUtils.swift in Sources */,
 				8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */,
 				8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */,

@@ -1,10 +1,12 @@
 platform :ios, '13.0'
+source "https://github.com/imamalys/net2callSDK.git"
 source "https://github.com/CocoaPods/Specs.git"
 
 target 'Net2CallSDK' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   use_frameworks!
-  pod 'SnapKit', '~> 5.6.0'
+pod 'net2call-core', '1.0'
+pod 'SnapKit', '~> 5.6.0'
 end
 
 

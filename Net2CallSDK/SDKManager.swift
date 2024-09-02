@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import linphonesw
 
 public protocol SDKDelegate {
     func onCallStateChanged(state: CallState)
@@ -14,7 +15,7 @@ public protocol SDKDelegate {
 }
 
 public class SDKManager {
-    var sdkCore: Core!
+    var sdkCore: Core?
     var mRegistrationDelegate : CoreDelegate!
     @Published public var loggedIn: Bool = false
     
@@ -30,11 +31,11 @@ public class SDKManager {
         do {
             let factory = Factory.Instance
             sdkCore = try! factory.createCore(configPath: "", factoryConfigPath: "", systemContext: nil)
-            sdkCore.videoCaptureEnabled = false
-            sdkCore.videoDisplayEnabled = false
-            sdkCore.ipv6Enabled = false
-            sdkCore.videoActivationPolicy!.automaticallyAccept = false
-            try! sdkCore.start()
+            sdkCore?.videoCaptureEnabled = false
+            sdkCore?.videoDisplayEnabled = false
+            sdkCore?.ipv6Enabled = false
+            sdkCore?.videoActivationPolicy!.automaticallyAccept = false
+            try sdkCore?.start()
         } catch {
             print("Failed to initialize Linphone core: \(error)")
         }
@@ -47,8 +48,10 @@ public class SDKManager {
             }
             else if (state == .OutgoingInit) {
                 // First state an outgoing call will go through
+                self.sdkCore?.activateAudioSession(actived: true)
             } else if (state == .OutgoingProgress) {
                 // Right after outgoing init
+                self.sdkCore?.activateAudioSession(actived: true)
                 self.delegate?.onCallStateChanged(state: .OutgoingProgress)
             } else if (state == .OutgoingRinging) {
                 // This state will be reached upon reception of the 180 RINGING
@@ -265,9 +268,9 @@ public class SDKManager {
     public func setAudioDevices(deviceType: AudioDeviceType) {
         switch deviceType {
         case .Microphone:
-            AudioRouteUtils.routeAudioToSpeaker(call: sdkCore?.currentCall)
+            AudioRouteUtils.routeAudioToSpeaker(call: nil)
         default:
-            AudioRouteUtils.routeAudioToEarpiece(call: sdkCore?.currentCall)
+            AudioRouteUtils.routeAudioToEarpiece(call: nil)
         }
     }
     
