@@ -108,7 +108,7 @@ public class SDKManager {
             if (state == .Ok) {
                 self.loggedIn = true
                 self.delegate?.onConnectSuccess()
-//                self.sdkCore?.configureAudioSession()
+                self.sdkCore?.configureAudioSession()
             } else if (state == .Cleared) {
                 self.loggedIn = false
             }
