@@ -1,0 +1,3 @@
+[submodule "net2call-podspec"]
+	path = net2call-podspec
+	url = https://github.com/imamalys/net2call-podspec.git
