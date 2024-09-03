@@ -42,8 +42,6 @@
 		8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCD2C80782900A1DEF5 /* AudioDevice.swift */; };
 		8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCE2C80782A00A1DEF5 /* CallState.swift */; };
 		8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */; };
-		8F2D8CE12C80782A00A1DEF5 /* CallTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */; };
-		8F2D8CE22C80782A00A1DEF5 /* StyledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -95,8 +93,6 @@
 		8F2D8CCD2C80782900A1DEF5 /* AudioDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
 		8F2D8CCE2C80782A00A1DEF5 /* CallState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallState.swift; sourceTree = "<group>"; };
 		8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDeviceType.swift; sourceTree = "<group>"; };
-		8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallTimer.swift; sourceTree = "<group>"; };
-		8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledLabel.swift; sourceTree = "<group>"; };
 		8F60CC332C4C073600FC1855 /* Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6087DADBCFB842AF7F167E0 /* Pods-Net2CallSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.debug.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,7 +146,6 @@
 				8F2D8CC72C80782900A1DEF5 /* Theme */,
 				8F2D8CCB2C80782900A1DEF5 /* SDKManager.swift */,
 				8F2D8CCC2C80782900A1DEF5 /* Model */,
-				8F2D8CD02C80782A00A1DEF5 /* Widgets */,
 			);
 			path = Net2CallSDK;
 			sourceTree = "<group>";
@@ -201,15 +196,6 @@
 				8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		8F2D8CD02C80782A00A1DEF5 /* Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				8F2D8CD12C80782A00A1DEF5 /* CallTimer.swift */,
-				8F2D8CD22C80782A00A1DEF5 /* StyledLabel.swift */,
-			);
-			path = Widgets;
 			sourceTree = "<group>";
 		};
 		8F60CC292C4C073500FC1855 = {
@@ -371,7 +357,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F2D8CDB2C80782A00A1DEF5 /* TextStyle.swift in Sources */,
-				8F2D8CE22C80782A00A1DEF5 /* StyledLabel.swift in Sources */,
 				8F2D8CDA2C80782A00A1DEF5 /* LightDarkColor.swift in Sources */,
 				8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */,
 				8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */,
@@ -379,7 +364,6 @@
 				8F2D8CD82C80782A00A1DEF5 /* AudioRouteUtils.swift in Sources */,
 				8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */,
 				8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */,
-				8F2D8CE12C80782A00A1DEF5 /* CallTimer.swift in Sources */,
 				8F2D8CD62C80782A00A1DEF5 /* UIImage.swift in Sources */,
 				8F2D8CD52C80782A00A1DEF5 /* UIDevice.swift in Sources */,
 				8F2D8CD72C80782A00A1DEF5 /* MutableLiveData.swift in Sources */,

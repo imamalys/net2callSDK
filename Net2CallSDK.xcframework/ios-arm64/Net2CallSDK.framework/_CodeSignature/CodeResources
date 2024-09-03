@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/Pods_Net2CallSDK.framework/Pods_Net2CallSDK</key>
 		<data>
-		++WYmjvNE/mGSCZAX0iWAnLPlpI=
+		aBPv3j4s+vud+dK9xH7hDsiMkS0=
 		</data>
 		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kpqqvc4rJa51GgyG8BKHbH+QtVg=
+		KXL35gLQG0lCpgion6JDO5gzwEQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Mz5gFfx20eDrJ8yasXwfpu4m/Ec=
+		FS5mFaJTNCMU3upP6l3FRElqFGY=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Mz5gFfx20eDrJ8yasXwfpu4m/Ec=
+		FS5mFaJTNCMU3upP6l3FRElqFGY=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ijJYgQ3877mlHTmUdbHGqSj1LUU=
+		MJfDNXIYC9/NcPp8NRG7K+4QnP0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RduyxAp6XNms6mw1Xg7kRUpytEyftk2OdCLdwhdV1jY=
+			0pse0XuLWsZqWkWJ1K4rC0HL/nfW/UsHVjMRZrERNrs=
 			</data>
 		</dict>
 		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
+			qU6FcT/DA6GgBBhSjyvLiqLs79HOxx0kATqj2gyysGE=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			972WoZHKp0i6ulBZQyVaGmtsbNRKjJDmTzQnB9G+SBY=
+			XQ5eVEchEVHWfRhB86X6Zr5HLscF+OaeRIZBwFONe/w=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			972WoZHKp0i6ulBZQyVaGmtsbNRKjJDmTzQnB9G+SBY=
+			XQ5eVEchEVHWfRhB86X6Zr5HLscF+OaeRIZBwFONe/w=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FC0r7qvK0ulJsog9MaMknI2h4W8quIgLPuNXrxH5yX8=
+			olHbhzdqijkN6wMt7W7BvpZJAN+zw1a2dTi797Dt5ao=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

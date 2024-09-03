@@ -17,6 +17,13 @@ public class SDKManager {
     var sdkCore: Core?
     var mRegistrationDelegate : CoreDelegate!
     @Published public var loggedIn: Bool = false
+    let formatter = DateComponentsFormatter()
+    var startDate = Date()
+    var durationCall: Call? = nil {
+        didSet {
+            self.format()
+        }
+    }
     
     public var delegate: SDKDelegate?
 
@@ -101,6 +108,7 @@ public class SDKManager {
             if (state == .Ok) {
                 self.loggedIn = true
                 self.delegate?.onConnectSuccess()
+//                self.sdkCore?.configureAudioSession()
             } else if (state == .Cleared) {
                 self.loggedIn = false
             }
@@ -288,10 +296,26 @@ public class SDKManager {
         } catch { NSLog(error.localizedDescription) }
     }
     
-    public func setDuration(durationView: UIView) {
-        let duration = CallTimer(nil, VoipTheme.call_display_name_duration)
-        duration.call = SDKManager.holder.get()?.currentCall()
-        durationView.addSubview(duration)
-        duration.alignVerticalCenterWith(durationView).done()
+    public func setDuration(durationView: UILabel) {
+        durationCall = SDKManager.holder.get()?.currentCall()
+        formatter.unitsStyle = .positional
+        formatter.allowedUnits = [.minute, .second ]
+        formatter.zeroFormattingBehavior = [ .pad ]
+        Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
+            var elapsedTime: TimeInterval = 0
+            if (self.durationCall != nil) {
+                elapsedTime = Date().timeIntervalSince(self.startDate)
+            }
+            self.formatter.string(from: elapsedTime).map {
+                durationView.text = $0.hasPrefix("0:") ? "0" + $0 : $0
+            }
+        }
+    }
+    
+    func format() {
+        guard let duration = durationCall?.duration else {
+            return
+        }
+        startDate = Date().advanced(by: -TimeInterval(duration))
     }
 }

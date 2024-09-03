@@ -7078,7 +7078,7 @@ public class SDKManager {
   public func setAudioDevices(deviceType: Net2CallSDK.AudioDeviceType)
   public func setMicEnabled(isEnabled: Swift.Bool)
   public func sendDTMF(input: Swift.String)
-  public func setDuration(durationView: UIKit.UIView)
+  public func setDuration(durationView: UIKit.UILabel)
   @objc deinit
 }
 public class SingletonHolder<T, A> {

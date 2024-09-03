@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kpqqvc4rJa51GgyG8BKHbH+QtVg=
+		KXL35gLQG0lCpgion6JDO5gzwEQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Lm1JsNfe35OyDxX0Zx1bi4339BA=
+		rHoFOwdV8uTCYmv6MZVe3sDeILI=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Lm1JsNfe35OyDxX0Zx1bi4339BA=
+		rHoFOwdV8uTCYmv6MZVe3sDeILI=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tcOgXvAxlYYUVQEuZEHf2nuo9x0=
+		SQPlhmhrWf/AkSUkmC/y3gVYLf4=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kpqqvc4rJa51GgyG8BKHbH+QtVg=
+		KXL35gLQG0lCpgion6JDO5gzwEQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		e8g/n15ZYenK+A1hbhG/OFECc8Y=
+		uwGUFR8rlq8uKo7lhTmmbSS6ES4=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		e8g/n15ZYenK+A1hbhG/OFECc8Y=
+		uwGUFR8rlq8uKo7lhTmmbSS6ES4=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		64XXPPN+lpHCzlkvNRdKyTVi2rc=
+		UGLuwdhlBmB8d4qB9RXI0kONzjw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,14 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
+			qU6FcT/DA6GgBBhSjyvLiqLs79HOxx0kATqj2gyysGE=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bL+kHJNYEuUYOCse2pFS7xv/t5JsyKNm+7GU/r7Eabw=
+			W/6PPWyPpQFLWRQ6XsKnVGSneoG578vp8zdf4qO4zyM=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -124,28 +124,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bL+kHJNYEuUYOCse2pFS7xv/t5JsyKNm+7GU/r7Eabw=
+			W/6PPWyPpQFLWRQ6XsKnVGSneoG578vp8zdf4qO4zyM=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CrAnldwO9TOmrJK1NjUxLCrHstWdfqDh82UpwoQqAuM=
+			hSlF5igtKYSdKvALxSQzs5aquz+/sFEohVhfmsNjhAc=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WPSu/SoBFP+8tr2+w4hw2O0fu86wzwthTd7FMlwMSEc=
+			qU6FcT/DA6GgBBhSjyvLiqLs79HOxx0kATqj2gyysGE=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ez9ehbq2XUuwtkG0C+1yWF8UvctuxXLospmI6dVcL58=
+			YdOSX46PdeS5isr4GvS206elloAT25drU0OrPw6Riw4=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -159,14 +159,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ez9ehbq2XUuwtkG0C+1yWF8UvctuxXLospmI6dVcL58=
+			YdOSX46PdeS5isr4GvS206elloAT25drU0OrPw6Riw4=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XU8MhUXYZv5+pXR34TOnS4Arfz9HMPtbZjHFgeXMtP4=
+			rbJPeTQuLT5boxwWERobs86oDBKfLEubn4T/VInYqGg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
