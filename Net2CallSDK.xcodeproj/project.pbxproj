@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8F05D9512C85CD910034FE6A /* Pods_Net2CallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; };
-		8F05D9522C85CD910034FE6A /* Pods_Net2CallSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8F05D9662C85D01E0034FE6A /* mscodec2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */; };
 		8F05D9682C85D01F0034FE6A /* belr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9552C85D01E0034FE6A /* belr.xcframework */; };
 		8F05D96A2C85D01F0034FE6A /* limetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9562C85D01E0034FE6A /* limetester.xcframework */; };
@@ -43,20 +42,6 @@
 		8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCE2C80782A00A1DEF5 /* CallState.swift */; };
 		8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8F05D9532C85CD910034FE6A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8F05D9522C85CD910034FE6A /* Pods_Net2CallSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6B0FF899CE9341B03606F468 /* Pods-Net2CallSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.release.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.release.xcconfig"; sourceTree = "<group>"; };
@@ -273,7 +258,6 @@
 				8F60CC2F2C4C073600FC1855 /* Sources */,
 				8F60CC302C4C073600FC1855 /* Frameworks */,
 				8F60CC312C4C073600FC1855 /* Resources */,
-				8F05D9532C85CD910034FE6A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

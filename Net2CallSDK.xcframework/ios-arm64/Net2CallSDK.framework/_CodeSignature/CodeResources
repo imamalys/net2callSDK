@@ -4,18 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_Net2CallSDK.framework/Info.plist</key>
-		<data>
-		L1k6yBxLSKyNZl8XahuqNeTcMIg=
-		</data>
-		<key>Frameworks/Pods_Net2CallSDK.framework/Pods_Net2CallSDK</key>
-		<data>
-		vxYPf/9TiV1mq5Dl+3bpkdXgoPw=
-		</data>
-		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		T2WEDcww1a4bcfdGECi+QWTgfjQ=
-		</data>
 		<key>Headers/Net2CallSDK-Swift.h</key>
 		<data>
 		MektWztENKGe6Xwi+Nt2SKOkOqc=
@@ -51,27 +39,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_Net2CallSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4KFcnnN9vGV1TmBAa1DhWmMSTXaK5/+rWJQhdf2MGsY=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Net2CallSDK.framework/Pods_Net2CallSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Dw7YgjibGhx4BmVOagMp4Iw8gYcmAc6duXaOqZGvkrE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_Net2CallSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cRJOXGuLZXPmZuPE+F2mNVVsnkvs9sjQYejEP2Qsn28=
-			</data>
-		</dict>
 		<key>Headers/Net2CallSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
