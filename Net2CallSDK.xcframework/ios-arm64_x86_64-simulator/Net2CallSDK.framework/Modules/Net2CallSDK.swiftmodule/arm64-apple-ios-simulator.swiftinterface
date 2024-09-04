@@ -7048,7 +7048,7 @@ public enum AudioDeviceType : Swift.Int {
 }
 public protocol SDKDelegate {
   func onCallStateChanged(state: Net2CallSDK.CallState)
-  func onConnectSuccess()
+  func connectStatus(success: Swift.Bool)
 }
 public class SDKManager {
   @Combine.Published @_projectedValueProperty($loggedIn) public var loggedIn: Swift.Bool {
@@ -7064,7 +7064,7 @@ public class SDKManager {
     set
   }
   public var delegate: (any Net2CallSDK.SDKDelegate)?
-  public static let holder: Net2CallSDK.SingletonHolder<Net2CallSDK.SDKManager, Swift.String>
+  public static let holder: Net2CallSDK.SingletonHolder<Net2CallSDK.SDKManager>
   public init()
   public func login(username: Swift.String, passwd: Swift.String, domain: Swift.String, transportType: Swift.String, port: Swift.String?)
   public func unregister()
@@ -7080,15 +7080,15 @@ public class SDKManager {
   public func setDuration(durationView: UIKit.UILabel)
   @objc deinit
 }
-public class SingletonHolder<T, A> {
-  public init(creator: @escaping (A) -> T)
+public class SingletonHolder<T> {
+  public init(creator: @escaping () -> T)
   public var exists: Swift.Bool {
     get
   }
   public func destroy()
   public func get() -> T?
-  public func create(arg: A) -> T
-  public func required(arg: A) -> T
+  public func create() -> T
+  public func required() -> T
   @objc deinit
 }
 extension Net2CallSDK.CallState : Swift.Equatable {}

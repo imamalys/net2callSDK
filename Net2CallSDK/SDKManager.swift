@@ -10,7 +10,7 @@ import UIKit
 
 public protocol SDKDelegate {
     func onCallStateChanged(state: CallState)
-    func onConnectSuccess()
+    func connectStatus(success: Bool)
 }
 
 public class SDKManager {
@@ -27,7 +27,7 @@ public class SDKManager {
     
     public var delegate: SDKDelegate?
 
-    public static let holder = SingletonHolder<SDKManager, String> {_ in
+    public static let holder = SingletonHolder<SDKManager> {
         return SDKManager()
     }
     
@@ -107,9 +107,10 @@ public class SDKManager {
             NSLog("New registration state is \(state) for user id \( String(describing: account.params?.identityAddress?.asString()))\n")
             if (state == .Ok) {
                 self.loggedIn = true
-                self.delegate?.onConnectSuccess()
+                self.delegate?.connectStatus(success: true)
                 self.sdkCore?.configureAudioSession()
             } else if (state == .Cleared) {
+                self.delegate?.connectStatus(success: false)
                 self.loggedIn = false
             }
             

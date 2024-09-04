@@ -7,12 +7,12 @@
 
 import Foundation
 
-public class SingletonHolder<T, A> {
-    private let creator: (A) -> T
+public class SingletonHolder<T> {
+    private let creator: () -> T
     private var instance: T?
     private let lock = NSLock()
 
-    public init(creator: @escaping (A) -> T) {
+    public init(creator: @escaping () -> T) {
         self.creator = creator
     }
 
@@ -32,7 +32,7 @@ public class SingletonHolder<T, A> {
         return instance
     }
 
-    public func create(arg: A) -> T {
+    public func create() -> T {
         if let instance = instance {
             return instance
         }
@@ -43,13 +43,13 @@ public class SingletonHolder<T, A> {
         if let instance = instance {
             return instance
         } else {
-            let createdInstance = creator(arg)
+            let createdInstance = creator()
             instance = createdInstance
             return createdInstance
         }
     }
 
-    public func required(arg: A) -> T {
-        return get() ?? create(arg: arg)
+    public func required() -> T {
+        return get() ?? create()
     }
 }

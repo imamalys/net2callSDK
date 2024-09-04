@@ -5,3 +5,5 @@ Pods/
 *.xcworkspace/xcuserdata/
 /archives
 *.xcworkspace
+Net2CallSDK.podspec
+net2call-core.podspec
