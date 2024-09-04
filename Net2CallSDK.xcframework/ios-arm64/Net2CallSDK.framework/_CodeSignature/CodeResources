@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Net2CallSDK-Swift.h</key>
 		<data>
-		MektWztENKGe6Xwi+Nt2SKOkOqc=
+		Xzmfc5dPVjAse6QN5j1+9+nxy6o=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		WgqUqZObU8sItWDegHc2/gf42Zc=
+		xYVvwonr28yfooNluFrfoQfWZJQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		FS5mFaJTNCMU3upP6l3FRElqFGY=
+		JVhlIO1n23rzJT2F1H8NnF7f1Es=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		FS5mFaJTNCMU3upP6l3FRElqFGY=
+		JVhlIO1n23rzJT2F1H8NnF7f1Es=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		MJfDNXIYC9/NcPp8NRG7K+4QnP0=
+		wOFdFZa8jbesemfIMyohEzsbM0o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,21 +43,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cv3DG0uaQW1N9HMf7vGQnfEZ6A8CjzxG1j7uCBvySWc=
+			izn+v18K6f4t7CY/LpTQMqL4beDu9YIbekrnasGZx8s=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NF/jPbahI456pC7nBhzXV6HN9COqqYrHlReZo/y8/8Q=
+			8I9ThaWSJW9KqyWWvYb0LknWMqaGHCFC4qr7+d1fsM4=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQ5eVEchEVHWfRhB86X6Zr5HLscF+OaeRIZBwFONe/w=
+			5lgbM3ZaiElqcS/k9HOaxhDkdzP1BjDntz15dZp3Ebg=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQ5eVEchEVHWfRhB86X6Zr5HLscF+OaeRIZBwFONe/w=
+			5lgbM3ZaiElqcS/k9HOaxhDkdzP1BjDntz15dZp3Ebg=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			olHbhzdqijkN6wMt7W7BvpZJAN+zw1a2dTi797Dt5ao=
+			bBln4ELxYuCC7adGuDFP1KmWpWxaAwQiXRh7L0fY/ak=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

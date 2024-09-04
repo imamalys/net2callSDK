@@ -1,6 +1,6 @@
 # 1
 xcodebuild archive \
--workspace Net2CallSDK.xcworkspace \
+-project Net2CallSDK.xcodeproj \
 -scheme Net2CallSDK \
 -sdk iphoneos \
 -archivePath archives/ios_devices.xcarchive \
@@ -9,7 +9,7 @@ SKIP_INSTALL=NO \
 
 # 2
 xcodebuild archive \
--workspace Net2CallSDK.xcworkspace \
+-project Net2CallSDK.xcodeproj \
 -scheme Net2CallSDK \
 -sdk iphonesimulator \
 -archivePath archives/ios_simulators.xcarchive \

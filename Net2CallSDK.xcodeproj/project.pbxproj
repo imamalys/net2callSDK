@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F05D9512C85CD910034FE6A /* Pods_Net2CallSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */; };
 		8F05D9662C85D01E0034FE6A /* mscodec2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */; };
 		8F05D9682C85D01F0034FE6A /* belr.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9552C85D01E0034FE6A /* belr.xcframework */; };
 		8F05D96A2C85D01F0034FE6A /* limetester.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9562C85D01E0034FE6A /* limetester.xcframework */; };
@@ -27,16 +26,9 @@
 		8F05D9862C85D01F0034FE6A /* mediastreamer2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9642C85D01E0034FE6A /* mediastreamer2.xcframework */; };
 		8F05D9882C85D01F0034FE6A /* ZXing.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F05D9652C85D01E0034FE6A /* ZXing.xcframework */; };
 		8F05D98C2C85D1100034FE6A /* Net2CallWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F05D98B2C85D1100034FE6A /* Net2CallWrapper.swift */; };
-		8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CBF2C80782900A1DEF5 /* UIView.swift */; };
-		8F2D8CD42C80782A00A1DEF5 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC02C80782900A1DEF5 /* UIColor.swift */; };
-		8F2D8CD52C80782A00A1DEF5 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC12C80782900A1DEF5 /* UIDevice.swift */; };
-		8F2D8CD62C80782A00A1DEF5 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC22C80782900A1DEF5 /* UIImage.swift */; };
 		8F2D8CD72C80782A00A1DEF5 /* MutableLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC42C80782900A1DEF5 /* MutableLiveData.swift */; };
 		8F2D8CD82C80782A00A1DEF5 /* AudioRouteUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC52C80782900A1DEF5 /* AudioRouteUtils.swift */; };
 		8F2D8CD92C80782A00A1DEF5 /* SingleHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC62C80782900A1DEF5 /* SingleHolder.swift */; };
-		8F2D8CDA2C80782A00A1DEF5 /* LightDarkColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC82C80782900A1DEF5 /* LightDarkColor.swift */; };
-		8F2D8CDB2C80782A00A1DEF5 /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CC92C80782900A1DEF5 /* TextStyle.swift */; };
-		8F2D8CDC2C80782A00A1DEF5 /* VoipTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCA2C80782900A1DEF5 /* VoipTheme.swift */; };
 		8F2D8CDD2C80782A00A1DEF5 /* SDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCB2C80782900A1DEF5 /* SDKManager.swift */; };
 		8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCD2C80782900A1DEF5 /* AudioDevice.swift */; };
 		8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D8CCE2C80782A00A1DEF5 /* CallState.swift */; };
@@ -44,7 +36,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6B0FF899CE9341B03606F468 /* Pods-Net2CallSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.release.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.release.xcconfig"; sourceTree = "<group>"; };
 		8F05D9542C85D01E0034FE6A /* mscodec2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mscodec2.xcframework; path = Core/XCFrameworks/mscodec2.xcframework; sourceTree = "<group>"; };
 		8F05D9552C85D01E0034FE6A /* belr.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = belr.xcframework; path = Core/XCFrameworks/belr.xcframework; sourceTree = "<group>"; };
 		8F05D9562C85D01E0034FE6A /* limetester.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = limetester.xcframework; path = Core/XCFrameworks/limetester.xcframework; sourceTree = "<group>"; };
@@ -64,23 +55,14 @@
 		8F05D9642C85D01E0034FE6A /* mediastreamer2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mediastreamer2.xcframework; path = Core/XCFrameworks/mediastreamer2.xcframework; sourceTree = "<group>"; };
 		8F05D9652C85D01E0034FE6A /* ZXing.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ZXing.xcframework; path = Core/XCFrameworks/ZXing.xcframework; sourceTree = "<group>"; };
 		8F05D98B2C85D1100034FE6A /* Net2CallWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Net2CallWrapper.swift; path = Core/Net2CallWrapper.swift; sourceTree = SOURCE_ROOT; };
-		8F2D8CBF2C80782900A1DEF5 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		8F2D8CC02C80782900A1DEF5 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
-		8F2D8CC12C80782900A1DEF5 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
-		8F2D8CC22C80782900A1DEF5 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		8F2D8CC42C80782900A1DEF5 /* MutableLiveData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MutableLiveData.swift; sourceTree = "<group>"; };
 		8F2D8CC52C80782900A1DEF5 /* AudioRouteUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioRouteUtils.swift; sourceTree = "<group>"; };
 		8F2D8CC62C80782900A1DEF5 /* SingleHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleHolder.swift; sourceTree = "<group>"; };
-		8F2D8CC82C80782900A1DEF5 /* LightDarkColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightDarkColor.swift; sourceTree = "<group>"; };
-		8F2D8CC92C80782900A1DEF5 /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
-		8F2D8CCA2C80782900A1DEF5 /* VoipTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoipTheme.swift; sourceTree = "<group>"; };
 		8F2D8CCB2C80782900A1DEF5 /* SDKManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDKManager.swift; sourceTree = "<group>"; };
 		8F2D8CCD2C80782900A1DEF5 /* AudioDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
 		8F2D8CCE2C80782A00A1DEF5 /* CallState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallState.swift; sourceTree = "<group>"; };
 		8F2D8CCF2C80782A00A1DEF5 /* AudioDeviceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioDeviceType.swift; sourceTree = "<group>"; };
 		8F60CC332C4C073600FC1855 /* Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6087DADBCFB842AF7F167E0 /* Pods-Net2CallSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Net2CallSDK.debug.xcconfig"; path = "Target Support Files/Pods-Net2CallSDK/Pods-Net2CallSDK.debug.xcconfig"; sourceTree = "<group>"; };
-		EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Net2CallSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +73,6 @@
 				8F05D9702C85D01F0034FE6A /* msopenh264.xcframework in Frameworks */,
 				8F05D9882C85D01F0034FE6A /* ZXing.xcframework in Frameworks */,
 				8F05D96E2C85D01F0034FE6A /* ortp.xcframework in Frameworks */,
-				8F05D9512C85CD910034FE6A /* Pods_Net2CallSDK.framework in Frameworks */,
 				8F05D96C2C85D01F0034FE6A /* linphone.xcframework in Frameworks */,
 				8F05D97E2C85D01F0034FE6A /* mssilk.xcframework in Frameworks */,
 				8F05D9682C85D01F0034FE6A /* belr.xcframework in Frameworks */,
@@ -125,33 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				8F05D98A2C85D0BB0034FE6A /* Core */,
-				8F2D8CBD2C80782900A1DEF5 /* Extension */,
 				8F2D8CC32C80782900A1DEF5 /* Util */,
 				8F2D8CC62C80782900A1DEF5 /* SingleHolder.swift */,
-				8F2D8CC72C80782900A1DEF5 /* Theme */,
 				8F2D8CCB2C80782900A1DEF5 /* SDKManager.swift */,
 				8F2D8CCC2C80782900A1DEF5 /* Model */,
 			);
 			path = Net2CallSDK;
-			sourceTree = "<group>";
-		};
-		8F2D8CBD2C80782900A1DEF5 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				8F2D8CBE2C80782900A1DEF5 /* IOS */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		8F2D8CBE2C80782900A1DEF5 /* IOS */ = {
-			isa = PBXGroup;
-			children = (
-				8F2D8CBF2C80782900A1DEF5 /* UIView.swift */,
-				8F2D8CC02C80782900A1DEF5 /* UIColor.swift */,
-				8F2D8CC12C80782900A1DEF5 /* UIDevice.swift */,
-				8F2D8CC22C80782900A1DEF5 /* UIImage.swift */,
-			);
-			path = IOS;
 			sourceTree = "<group>";
 		};
 		8F2D8CC32C80782900A1DEF5 /* Util */ = {
@@ -161,16 +121,6 @@
 				8F2D8CC52C80782900A1DEF5 /* AudioRouteUtils.swift */,
 			);
 			path = Util;
-			sourceTree = "<group>";
-		};
-		8F2D8CC72C80782900A1DEF5 /* Theme */ = {
-			isa = PBXGroup;
-			children = (
-				8F2D8CC82C80782900A1DEF5 /* LightDarkColor.swift */,
-				8F2D8CC92C80782900A1DEF5 /* TextStyle.swift */,
-				8F2D8CCA2C80782900A1DEF5 /* VoipTheme.swift */,
-			);
-			path = Theme;
 			sourceTree = "<group>";
 		};
 		8F2D8CCC2C80782900A1DEF5 /* Model */ = {
@@ -188,7 +138,6 @@
 			children = (
 				8F2D8CBC2C80782900A1DEF5 /* Net2CallSDK */,
 				8F60CC342C4C073600FC1855 /* Products */,
-				E36506FF6EE7F1B6CD791857 /* Pods */,
 				EACF2902E6E984FF664CD0C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -199,15 +148,6 @@
 				8F60CC332C4C073600FC1855 /* Net2CallSDK.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E36506FF6EE7F1B6CD791857 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D6087DADBCFB842AF7F167E0 /* Pods-Net2CallSDK.debug.xcconfig */,
-				6B0FF899CE9341B03606F468 /* Pods-Net2CallSDK.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		EACF2902E6E984FF664CD0C9 /* Frameworks */ = {
@@ -231,7 +171,6 @@
 				8F05D95E2C85D01E0034FE6A /* mswebrtc.xcframework */,
 				8F05D9582C85D01E0034FE6A /* ortp.xcframework */,
 				8F05D9652C85D01E0034FE6A /* ZXing.xcframework */,
-				EEC63FEF510F88CDA2F54CAE /* Pods_Net2CallSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,7 +192,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F60CC3A2C4C073600FC1855 /* Build configuration list for PBXNativeTarget "Net2CallSDK" */;
 			buildPhases = (
-				1011EEC2F71EDDF4066739E2 /* [CP] Check Pods Manifest.lock */,
 				8F60CC2E2C4C073600FC1855 /* Headers */,
 				8F60CC2F2C4C073600FC1855 /* Sources */,
 				8F60CC302C4C073600FC1855 /* Frameworks */,
@@ -310,51 +248,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1011EEC2F71EDDF4066739E2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Net2CallSDK-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		8F60CC2F2C4C073600FC1855 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F2D8CDB2C80782A00A1DEF5 /* TextStyle.swift in Sources */,
-				8F2D8CDA2C80782A00A1DEF5 /* LightDarkColor.swift in Sources */,
 				8F2D8CDF2C80782A00A1DEF5 /* CallState.swift in Sources */,
 				8F2D8CDE2C80782A00A1DEF5 /* AudioDevice.swift in Sources */,
 				8F05D98C2C85D1100034FE6A /* Net2CallWrapper.swift in Sources */,
 				8F2D8CD82C80782A00A1DEF5 /* AudioRouteUtils.swift in Sources */,
-				8F2D8CD32C80782A00A1DEF5 /* UIView.swift in Sources */,
 				8F2D8CE02C80782A00A1DEF5 /* AudioDeviceType.swift in Sources */,
-				8F2D8CD62C80782A00A1DEF5 /* UIImage.swift in Sources */,
-				8F2D8CD52C80782A00A1DEF5 /* UIDevice.swift in Sources */,
 				8F2D8CD72C80782A00A1DEF5 /* MutableLiveData.swift in Sources */,
 				8F2D8CDD2C80782A00A1DEF5 /* SDKManager.swift in Sources */,
 				8F2D8CD92C80782A00A1DEF5 /* SingleHolder.swift in Sources */,
-				8F2D8CD42C80782A00A1DEF5 /* UIColor.swift in Sources */,
-				8F2D8CDC2C80782A00A1DEF5 /* VoipTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +394,6 @@
 		};
 		8F60CC3B2C4C073600FC1855 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6087DADBCFB842AF7F167E0 /* Pods-Net2CallSDK.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -524,7 +429,6 @@
 		};
 		8F60CC3C2C4C073600FC1855 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0FF899CE9341B03606F468 /* Pods-Net2CallSDK.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

@@ -5,7 +5,6 @@
 import AVFoundation
 import Combine
 import Foundation
-import SnapKit
 import Swift
 import SwiftUI
 import UIKit
@@ -7091,9 +7090,6 @@ public class SingletonHolder<T, A> {
   public func create(arg: A) -> T
   public func required(arg: A) -> T
   @objc deinit
-}
-extension UIKit.UIColor {
-  convenience public init(hex: Swift.String)
 }
 extension Net2CallSDK.CallState : Swift.Equatable {}
 extension Net2CallSDK.CallState : Swift.Hashable {}

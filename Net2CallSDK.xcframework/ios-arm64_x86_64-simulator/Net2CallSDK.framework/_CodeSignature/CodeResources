@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Net2CallSDK-Swift.h</key>
 		<data>
-		H5rWLPvRpTtGtAnN/8+XrWveg44=
+		Ql7pVyIQwUYibDNiID+AfOnjvBI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -14,11 +14,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		WgqUqZObU8sItWDegHc2/gf42Zc=
+		xYVvwonr28yfooNluFrfoQfWZJQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rHoFOwdV8uTCYmv6MZVe3sDeILI=
+		0yt/zkDE0eHz/imh7cHWI+4BPTQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rHoFOwdV8uTCYmv6MZVe3sDeILI=
+		0yt/zkDE0eHz/imh7cHWI+4BPTQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SQPlhmhrWf/AkSUkmC/y3gVYLf4=
+		Qs4toZ0zfNrjFQoPPHhCmzCHwWw=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		WgqUqZObU8sItWDegHc2/gf42Zc=
+		xYVvwonr28yfooNluFrfoQfWZJQ=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uwGUFR8rlq8uKo7lhTmmbSS6ES4=
+		jWIEkI9XlXBZgLGZzyHbPNN/Jg4=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uwGUFR8rlq8uKo7lhTmmbSS6ES4=
+		jWIEkI9XlXBZgLGZzyHbPNN/Jg4=
 		</data>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UGLuwdhlBmB8d4qB9RXI0kONzjw=
+		H0sWSgIXMd1/A8bQlguc0o1cTD8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,21 +63,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLQ9sCV0hucXXjeTMojwyDI7fSp7dQeuRvlfrBx/MD8=
+			qii/1qxJriBAJnG9mgEeZYhL4hcFp+Vl3DwKczKd08M=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NF/jPbahI456pC7nBhzXV6HN9COqqYrHlReZo/y8/8Q=
+			8I9ThaWSJW9KqyWWvYb0LknWMqaGHCFC4qr7+d1fsM4=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W/6PPWyPpQFLWRQ6XsKnVGSneoG578vp8zdf4qO4zyM=
+			DiFqCxKGxCLIv7uEh7Dr/n91E4VZPsySg3xc1S47e4Q=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -91,28 +91,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W/6PPWyPpQFLWRQ6XsKnVGSneoG578vp8zdf4qO4zyM=
+			DiFqCxKGxCLIv7uEh7Dr/n91E4VZPsySg3xc1S47e4Q=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSlF5igtKYSdKvALxSQzs5aquz+/sFEohVhfmsNjhAc=
+			EghUOdCIR4EfMteKk1PQ1kxR7vlIfKBnQyYbGz4uXjU=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NF/jPbahI456pC7nBhzXV6HN9COqqYrHlReZo/y8/8Q=
+			8I9ThaWSJW9KqyWWvYb0LknWMqaGHCFC4qr7+d1fsM4=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YdOSX46PdeS5isr4GvS206elloAT25drU0OrPw6Riw4=
+			Ha+iYxltmyMZRl+xV9R9XP7ML+l6dbV62hBlbiDfgOI=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -126,14 +126,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YdOSX46PdeS5isr4GvS206elloAT25drU0OrPw6Riw4=
+			Ha+iYxltmyMZRl+xV9R9XP7ML+l6dbV62hBlbiDfgOI=
 			</data>
 		</dict>
 		<key>Modules/Net2CallSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rbJPeTQuLT5boxwWERobs86oDBKfLEubn4T/VInYqGg=
+			5SDe+nGY3Jd+8+kWvJnIJP9uKgGPPrdzyGoC1ELYKJ4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
